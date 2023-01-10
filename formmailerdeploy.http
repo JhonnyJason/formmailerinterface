@@ -1,0 +1,16 @@
+### 
+POST {{deploy}}/getAuthCode
+content-type: application/json
+
+{
+"siteId": "..."
+}
+### 
+POST {{deploy}}/sendForm
+content-type: application/json
+
+{
+"authCode": "...",
+"formData": {...}
+}
+### TODO add the Master Functions

@@ -1,0 +1,17 @@
+### 
+POST {{local}}/getAuthCode
+content-type: application/json
+
+{
+"siteId": "..."
+}
+### 
+POST {{local}}/sendForm
+content-type: application/json
+
+{
+"authCode": "...",
+"formData": {...}
+}
+### TODO add the Master Functions
+
