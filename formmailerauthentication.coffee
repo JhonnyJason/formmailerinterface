@@ -4,9 +4,9 @@ import { masterAuthentication, clientAuthentication } from "./authenticationfunc
 ############################################################
 ## Client Functions
 ############################################################
-export getAuthCode = (req) -> await clientAuthentication(req.path, req.body)
+export getAuthCode = (req) -> await clientAuthentication(req.path, req)
 ############################################################
-export sendForm = (req) -> await clientAuthentication(req.path, req.body)
+export sendForm = (req) -> await clientAuthentication(req.path, req)
 
 ############################################################
 ## Master Functions
