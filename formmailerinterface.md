@@ -10,14 +10,14 @@ These are the function for the client. The client is most likely a website which
 Before any request to `/sendForm` we need an `authCode`. 
 Our spam protection works on multiple levels an important key is a separate `authCode`.
 
-The `siteId` must match the assigned `siteId` for the origin.
+The `formId` must match the assigned `formId` for the origin.
 
 *Hint: At best send the request to /getAuthCode right when the page with the Form is being loaded.*
 
 #### request
 ```json
 {
-    "siteId": "..."
+    "formId": "..."
 }
 ```
 

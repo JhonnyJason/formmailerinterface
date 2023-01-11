@@ -3,7 +3,7 @@ POST {{local}}/getAuthCode
 content-type: application/json
 
 {
-"siteId": "..."
+"formId": "..."
 }
 ### 
 POST {{local}}/sendForm

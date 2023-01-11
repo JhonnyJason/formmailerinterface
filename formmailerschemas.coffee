@@ -10,7 +10,7 @@ import {
 ## Client Functions
 
 getAuthCodeArguments = {
-    siteId: STRINGHEX64
+    formId: STRINGHEX64
 }
 
 ############################################################

@@ -1,8 +1,8 @@
 import { postData } from "thingy-network-base"
 
 ############################################################
-export getAuthCode = (sciURL, siteId) ->
-    requestObject = { siteId }
+export getAuthCode = (sciURL, formId) ->
+    requestObject = { formId }
     requestURL = sciURL+"/getAuthCode"
     return postData(requestURL, requestObject)
 
